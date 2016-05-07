@@ -1,0 +1,89 @@
+@CHARSET "ISO-8859-1";
+<style>
+body
+{
+background-image: url("images/wall1.jpg");
+background-position: center;
+position : relative;
+font-size: 18px;
+font-style: normal;
+font-family: Aller ;
+font-weight: bold;
+margin-top:35px;
+margin-left:30px;
+margin-right:40px;
+
+    color: #000000;
+
+}
+h1
+{
+text-align: center;
+border-bottom:0px solid #009;
+margin-bottom: 50px;
+}
+#form1
+{
+padding: 50px;
+font-size: 14px;
+font-style: normal;
+font-family: sans-serif;
+font-weight: bold;
+    color: #000000;
+}
+.bordering
+{
+
+border: 10px solid transparent;
+    padding: 15px;
+    
+    
+    
+    position : relative;
+    -webkit-border-image: url(images/border.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(images/border.png) 30 round; /* Opera 11-12.1 */
+    border-image: url(images/border.png) 30 round;
+}
+#regisf
+{
+float:left;
+}
+#loginf
+{
+float:right;
+margin-right: 60px;
+}
+#name,#number,#email,#pass,#pass1,#email1,#passw
+{
+padding: 8px;
+background-color: #EBE3E3;
+}
+#login,#Register
+{
+	padding:6px;
+	font-size: 14px;
+	font-family: Aller;
+	color:#C33030;
+	font-style: bold;
+	position: block;
+	background-color: #EBE3E3;
+}
+#footer
+{
+position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color:#F15858;
+}
+#footer a
+{
+color:#2A1212;
+}
+#forgot
+{
+font-size: 12px;
+font-family: monospace;
+color: #BDBDBD;
+text-decoration: none;
+}
+</style>
